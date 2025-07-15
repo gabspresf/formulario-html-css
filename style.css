@@ -1,0 +1,102 @@
+/* Remove as margens e os espaçamentos padrões de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o título principal */
+#titulo {
+    font-family: sans-serif;
+    color: #380861;
+    margin-left: 7%;
+}
+
+/* Estiliza o subtítulo */
+#subtitulo {
+    font-family: sans-serif;
+    color: #380861;
+    margin-left: 10%;
+}
+
+/* Remove a borda padrão do fieldset */
+fieldset {
+    border: 0;
+}
+
+/* Estiliza o corpo da página */
+body {
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+/* Aplica bordas arredondadas nos campos interativos */
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+/* Classe usada para espaçamento entre campos */
+.campo {
+    margin-bottom: 1em;
+}
+
+/* Estiliza os labels dentro da classe campo */
+.campo label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+/* Agrupa os campos lado a lado dentro de um fieldset com classe "grupo" */
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+/* Estiliza os campos de texto, e-mail, select e textarea */
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+/* Estiliza as opções dentro do select */
+.campo select option {
+    padding-right: 1em;
+}
+
+/* Muda o fundo dos campos quando estão em foco */
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: #e0e0f8;
+}
+
+/* Estiliza o botão principal */
+.botao {
+    font-size: 1.2em;
+    background-color: #59429d;
+    border: 0;
+    margin: 1em auto;
+    color: white;
+    padding: 0.5em 1.5em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    display: block;
+}
+
+/* Efeito hover no botão */
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Estiliza a div que contém os checkboxes */
+#check {
+    display: inline-block;
+}
