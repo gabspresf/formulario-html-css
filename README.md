@@ -1,6 +1,6 @@
 # Formulário de cadastro para DEVs em HTML e CSS
 
-Olá! Este é um projeto simples de um formulário feito somente com HTML e CSS, desenvolvido como parte do meu aprendizado em front-end.
+Olá! Este é um projeto simples de um formulário feito somente com HTML e CSS, desenvolvido como parte do meu aprendizado em Front-End.
 
 ## 🚀 Tecnologias usadas
 
