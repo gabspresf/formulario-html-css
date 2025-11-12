@@ -4,18 +4,13 @@ Olá! Este é um projeto simples de um formulário feito somente com HTML e CSS,
 
 ## 🚀 Tecnologias usadas
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## 📁 Estrutura do projeto
 
 - `index.html`: estrutura do formulário
 - `style.css`: estilos personalizados
-
-## 🧪 Como visualizar
-
-1. Clone o repositório: https://github.com/gabspresf/formulario-html-css.git
-2. Abra o arquivo `index.html` no navegador.
 
 ## 📷 Captura de tela
 
